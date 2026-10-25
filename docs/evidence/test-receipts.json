@@ -1,0 +1,20 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "scope": "stdlib Budget Guard local tests only; no model calls or Native worker acceptance",
+  "first_after_load": {
+    "message_id": 367645,
+    "recorded_at": "2026-10-25T02:23:29.962418+08:00",
+    "tests_run": 18,
+    "passed": 18,
+    "exit_code": 0,
+    "stdout": "tests-first-after-load.txt"
+  },
+  "publication_check": {
+    "message_id": 367776,
+    "recorded_at": "2026-10-25T08:47:43.613702+08:00",
+    "tests_run": 18,
+    "passed": 18,
+    "exit_code": 0,
+    "stdout": "tests-publication-check.txt"
+  }
+}

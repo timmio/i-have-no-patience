@@ -1,0 +1,32 @@
+{
+  "collected_at": "2026-10-25T08:50:23.218014+08:00",
+  "baseline": {
+    "source_message_id": 367582,
+    "source_kind": "historical assistant status, corroborated by the two direct execution records and retained outputs",
+    "installed_skill_loading_proof": false,
+    "track_a_direct_runs": 2,
+    "track_a_scheduled_runs_proven": 0,
+    "guard_tests_reproduced_at_baseline": false,
+    "native_worker_running_proven": false
+  },
+  "after": {
+    "installed_files_verified": 5,
+    "loader_success": true,
+    "local_guard_tests_passed": 18,
+    "track_a_direct_runs": 2,
+    "track_a_builtin_scheduled_runs": 13,
+    "track_a_retained_outputs": 15,
+    "native_worker_new_acceptance_tests_executed_by_this_publication_task": 0,
+    "native_worker_running_proven": false,
+    "trusted_model_entrypoint_integration_proven": false
+  },
+  "not_measured": [
+    "causal productivity improvement from skill loading",
+    "tokens per verified task",
+    "cost savings",
+    "percentage acceleration",
+    "independently verified unique research outcomes"
+  ],
+  "safety_boundary": "This publication task did not run protected Native regression, change Production, release STOP, forge signoff, or switch providers to bypass a refusal.",
+  "timestamp_caveat": "Historical session records contain some nonmonotonic timestamps. Message IDs, exact tool-event types, hashes, and cron execution records are retained; this is not a timing benchmark."
+}

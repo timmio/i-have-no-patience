@@ -1,0 +1,209 @@
+{
+  "release": "v1.0.0",
+  "product": "I Have No Patience",
+  "description": "Repository file SHA-256; excludes this manifest itself",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 458,
+      "sha256": "2ce1b4f9630fc2fd3bdf0e2df4d450dbf577db6ac6d8eee1daeb66163d9232b8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "a0045b29142f9b33b01e0c10857ece58f3b5ded5ed5d0eac42158772c134d861"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1176,
+      "sha256": "39211ff621b1131f8d04693dadcb7f72a117631c3b62852ad0fd0a7365b9853b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1026,
+      "sha256": "269833131fb984396848047c7c8beac5e5cc9553e1c3dffc41b2d5bfe220bf3e"
+    },
+    {
+      "path": "docs/evidence/comparison-facts.json",
+      "bytes": 1445,
+      "sha256": "3f31170b04eb573b6f412fb7c05440c803ea7823ffce7787f0284ba163e6018e"
+    },
+    {
+      "path": "docs/evidence/original-v1.0.0-manifest.json",
+      "bytes": 2571,
+      "sha256": "8673c86b787e4f859195a3191f3b847b05c9da9394907bc4f6ff2224de4c64dd"
+    },
+    {
+      "path": "docs/evidence/research/A-R01.md",
+      "bytes": 1422,
+      "sha256": "234d62c9fac5860cdf0db219baf3d71a0dadb5db64b14c96765daebf72f44e3b"
+    },
+    {
+      "path": "docs/evidence/research/A-R02.md",
+      "bytes": 1598,
+      "sha256": "d5cb07e8c4d079019de477156739d0210c8e076ce243ac56ee2484b8228ef849"
+    },
+    {
+      "path": "docs/evidence/research/A-R03.md",
+      "bytes": 1704,
+      "sha256": "5bd442fbafab8a3ca719850b97ba39144324469a08c4f387034e77da4db1f890"
+    },
+    {
+      "path": "docs/evidence/research/A-R04.md",
+      "bytes": 1613,
+      "sha256": "7016bcea2f67d0c262198af64a58120d7d958cfbe674397dc5dd2b16d5f7e992"
+    },
+    {
+      "path": "docs/evidence/research/A-R05.md",
+      "bytes": 1693,
+      "sha256": "2f562895c335b783169b2ea45334c1617d59bd75553afac5e0f5c7675e88412f"
+    },
+    {
+      "path": "docs/evidence/research/A-R06.md",
+      "bytes": 1658,
+      "sha256": "107e0de4d55431bee440b3520aa31d152900156bf8ef381ee50442f98fd9f57b"
+    },
+    {
+      "path": "docs/evidence/research/A-R07.md",
+      "bytes": 1332,
+      "sha256": "2b05418608bf494d60694501756f604ce6307e05873e1e9c463518cd874acfde"
+    },
+    {
+      "path": "docs/evidence/research/A-R08.md",
+      "bytes": 1239,
+      "sha256": "8820905785560eb63b68f624fcfe9a72d00902ba1af454d731a33ee0ce2db675"
+    },
+    {
+      "path": "docs/evidence/research/A-R09.md",
+      "bytes": 1138,
+      "sha256": "f949a23c530b156aa7ad57185108b225d28492c6206e0de6722cb0fae4fc3983"
+    },
+    {
+      "path": "docs/evidence/research/A-R10.md",
+      "bytes": 1331,
+      "sha256": "598e138eeedce5bf579d834d7b9d158f2727cbf3b6a5587724e963e30e5f213a"
+    },
+    {
+      "path": "docs/evidence/research/A-R11.md",
+      "bytes": 1397,
+      "sha256": "4d6bc62746635d781268133749c309ea8aa5dd749304632e6bfb203085d3bfcd"
+    },
+    {
+      "path": "docs/evidence/research/A-R12.md",
+      "bytes": 1466,
+      "sha256": "bd370fb1f5c04aba837bc1c640e2834cea234925de99119aca5790f0b284e9e9"
+    },
+    {
+      "path": "docs/evidence/research/A-R13.md",
+      "bytes": 1689,
+      "sha256": "6bccacf5b8901ce4202d51772c69407cfcec5d8feeebdbae2521ededb67aef13"
+    },
+    {
+      "path": "docs/evidence/research/A-R14.md",
+      "bytes": 1399,
+      "sha256": "242c8d9452671470925131c34bc537907a018f58c593d6a3f3187dae577992be"
+    },
+    {
+      "path": "docs/evidence/research/A-R15.md",
+      "bytes": 1417,
+      "sha256": "049b3118d3256bff7c1ff824ba960af7b38f1948d1caeb0fe2ee13cdc31d895a"
+    },
+    {
+      "path": "docs/evidence/research-run-index.json",
+      "bytes": 18976,
+      "sha256": "7059c46dcf84dd55a8dbae4d76592fb375d8d170dc236ade029cb94a3faacb37"
+    },
+    {
+      "path": "docs/evidence/skill-load-receipt.json",
+      "bytes": 2389,
+      "sha256": "f741a894ec131c9b8ac48a67147ce8cd7da81aaadba5b71f9dd63fadced5dd44"
+    },
+    {
+      "path": "docs/evidence/skill-loaded.normalized.txt",
+      "bytes": 5874,
+      "sha256": "dc641b26d6028915b91a52411443401ffae1b69f080318ee74c509daf75d8bf2"
+    },
+    {
+      "path": "docs/evidence/test-receipts.json",
+      "bytes": 580,
+      "sha256": "0a0d073ad60b70554887c4e80001f33d605489545cc9786989d95e091de52f76"
+    },
+    {
+      "path": "docs/evidence/tests-first-after-load.txt",
+      "bytes": 1815,
+      "sha256": "5810b6d092722ada3991df83fc433dcc5c719e41b33aff86464642c779d47668"
+    },
+    {
+      "path": "docs/evidence/tests-publication-check.txt",
+      "bytes": 1833,
+      "sha256": "f011b3b3148a6ff34081b337c30548ccc8e6000b254fc6d5f7a1351394988d22"
+    },
+    {
+      "path": "docs/VERIFIED_PROGRESS.zh-TW.md",
+      "bytes": 7342,
+      "sha256": "9d6460be62c6544f403837a290a63b151ca1613ed873947df0078ff8f7621934"
+    },
+    {
+      "path": "examples/adapter_integration.py",
+      "bytes": 1927,
+      "sha256": "f0dae17827a6fcec6bf3461bbe3afcec58c2694ba2906881faa70163161e0aed"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1091,
+      "sha256": "8b22828e3f47c54352a39af86bd971c778e8a9833733354ce6d057c79901c308"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10928,
+      "sha256": "2fb5c2dde7cd8a2b7683cfb6d89bf564850391bb818a81369cb3707867e3f30e"
+    },
+    {
+      "path": "README.zh-TW.md",
+      "bytes": 5862,
+      "sha256": "96dd766ab602d268721584e7d3614d04a62d11b0c6aee8260173b289d8368749"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1339,
+      "sha256": "224cc0f7d6fea7db0381ccf2d110f827c820dbcb8cd33b2cc5d884dbb1dd3307"
+    },
+    {
+      "path": "skills/i-have-no-patience/config/policy.example.json",
+      "bytes": 156,
+      "sha256": "9bbb7e458ffd13ad0dbf5967fb17aef0aaa60220cf50d68c7a2d830b3b8bcfa9"
+    },
+    {
+      "path": "skills/i-have-no-patience/references/CASE_STUDY.md",
+      "bytes": 4768,
+      "sha256": "df30f5ee61d9a1f7ed14d370d77e9b525c5140a4b74f44d852bf86785c8a5ee9"
+    },
+    {
+      "path": "skills/i-have-no-patience/references/ENFORCEMENT.md",
+      "bytes": 5242,
+      "sha256": "6517a8f94350831593cd0c7deff2baa5a89a30201d864fd5c8796c62e1a0d056"
+    },
+    {
+      "path": "skills/i-have-no-patience/scripts/budget_guard.py",
+      "bytes": 10820,
+      "sha256": "56d9101510f24b4ef8f7f59b2334856c8c783d64abe994db4605ba42cc300798"
+    },
+    {
+      "path": "skills/i-have-no-patience/SKILL.md",
+      "bytes": 5874,
+      "sha256": "dc641b26d6028915b91a52411443401ffae1b69f080318ee74c509daf75d8bf2"
+    },
+    {
+      "path": "tests/test_budget_guard.py",
+      "bytes": 6856,
+      "sha256": "de3f6882d45d319c58f7d7fc67b67aaea13d87e07119f6bcd51ebd2f65d63913"
+    }
+  ],
+  "publication_evidence": {
+    "report": "docs/VERIFIED_PROGRESS.zh-TW.md",
+    "original_manifest": "docs/evidence/original-v1.0.0-manifest.json",
+    "research_completion_cutoff": "2026-10-25T08:38:12.616498+08:00",
+    "hash_scope": "All distributable regular files except RELEASE_MANIFEST.json itself; excludes .git and generated Python caches.",
+    "no_causal_performance_claim": true
+  }
+}

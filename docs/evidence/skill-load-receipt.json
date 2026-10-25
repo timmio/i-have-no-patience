@@ -1,0 +1,67 @@
+{
+  "schema": "i-have-no-patience/observed-evidence-v1",
+  "collected_at": "2026-10-25T08:50:23.218014+08:00",
+  "evidence_kind": "allowlisted projection of local tool-event records; not a signed remote attestation",
+  "installation_event": {
+    "message_id": 367612,
+    "recorded_at": "2026-10-25T02:20:31.646448+08:00",
+    "exit_code": 0,
+    "verified_files": 5
+  },
+  "loader_event": {
+    "message_id": 367614,
+    "recorded_at": "2026-10-25T02:20:34.753760+08:00",
+    "tool_name": "skill_view",
+    "success": true,
+    "name": "i-have-no-patience",
+    "readiness_status": "available",
+    "setup_needed": false,
+    "returned_content_chars": 5956,
+    "returned_content_sha256_before_path_normalization": "8d3f1b9106d01eaa08312fbb90fa57c51021c8f33621c2150228ed16d63dd76e",
+    "normalized_content_sha256": "dc641b26d6028915b91a52411443401ffae1b69f080318ee74c509daf75d8bf2",
+    "normalized_content_matches_repository_skill": true,
+    "normalization": "Replace only the returned skill_dir string with ${HERMES_SKILL_DIR}; exclude local paths and raw session data."
+  },
+  "installed_file_readback": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5874,
+      "sha256": "dc641b26d6028915b91a52411443401ffae1b69f080318ee74c509daf75d8bf2",
+      "matches_repository": true
+    },
+    {
+      "path": "config/policy.example.json",
+      "bytes": 156,
+      "sha256": "9bbb7e458ffd13ad0dbf5967fb17aef0aaa60220cf50d68c7a2d830b3b8bcfa9",
+      "matches_repository": true
+    },
+    {
+      "path": "references/CASE_STUDY.md",
+      "bytes": 4768,
+      "sha256": "df30f5ee61d9a1f7ed14d370d77e9b525c5140a4b74f44d852bf86785c8a5ee9",
+      "matches_repository": true
+    },
+    {
+      "path": "references/ENFORCEMENT.md",
+      "bytes": 5242,
+      "sha256": "6517a8f94350831593cd0c7deff2baa5a89a30201d864fd5c8796c62e1a0d056",
+      "matches_repository": true
+    },
+    {
+      "path": "scripts/budget_guard.py",
+      "bytes": 10820,
+      "sha256": "56d9101510f24b4ef8f7f59b2334856c8c783d64abe994db4605ba42cc300798",
+      "matches_repository": true
+    }
+  ],
+  "proves": [
+    "five installed file contents match repository",
+    "skill_view returned the full skill instructions"
+  ],
+  "does_not_prove": [
+    "model compliance on every turn",
+    "loading into other sessions or cron runs",
+    "non-bypassable model budget enforcement",
+    "Native worker qualification"
+  ]
+}

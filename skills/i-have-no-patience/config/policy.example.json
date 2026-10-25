@@ -1,0 +1,7 @@
+{
+  "schema": "i-have-no-patience/v1",
+  "task_token_budget": 12000,
+  "model_calls_per_task": 6,
+  "no_progress_limit": 2,
+  "max_tokens_per_call": 5000
+}

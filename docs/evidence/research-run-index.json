@@ -1,0 +1,372 @@
+{
+  "collected_at": "2026-10-25T08:50:23.218014+08:00",
+  "frozen_completion_cutoff": "2026-10-25T08:38:12.616498+08:00",
+  "baseline_before_skill_load": {
+    "retained_outputs": 2,
+    "direct_runs": 2,
+    "builtin_scheduled_runs": 0
+  },
+  "snapshot_after_skill_load": {
+    "retained_outputs": 15,
+    "direct_runs": 2,
+    "builtin_scheduled_runs": 13,
+    "completed_execution_records": 15,
+    "scheduler_recorded_delivered": 15
+  },
+  "job_projection_at_collection": {
+    "skills": [],
+    "enabled_toolsets": [
+      "web"
+    ],
+    "enabled": true
+  },
+  "attribution": "Chronological progress of an existing separate research lane, not a controlled skill-effect experiment. No proof these cron model contexts loaded this skill.",
+  "quality_caveat": "Distinct run IDs are not distinct completed user tasks. Permissions, continuity, and delivery topics recur; no independent quality or novelty score was measured.",
+  "notes": [
+    {
+      "task_id": "A-R01",
+      "original_filename": "2026-10-25_01-50-23.md",
+      "original_bytes": 4743,
+      "original_file_sha256": "0b06e6126da98d55b28cfc2dda35fed0079c2545860c5007ae5b066ba860ceb7",
+      "response": {
+        "path": "docs/evidence/research/A-R01.md",
+        "bytes": 1422,
+        "sha256": "234d62c9fac5860cdf0db219baf3d71a0dadb5db64b14c96765daebf72f44e3b"
+      },
+      "previous_output_in_prompt": false,
+      "response_first_line": "- **A-R01｜Hermes cron 如何排程、防重疊與恢復中斷？** 本輪未收到先前研究結果，依佇列完成 FIRST；僅查閱官方公開文件。",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "direct",
+        "status": "completed",
+        "claimed_at": "2026-10-25T01:49:59.901549+08:00",
+        "started_at": "2026-10-25T01:49:59.943971+08:00",
+        "finished_at": "2026-10-25T01:50:24.067198+08:00",
+        "scheduled_instant": null,
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R02",
+      "original_filename": "2026-10-25_01-55-01.md",
+      "original_bytes": 6581,
+      "original_file_sha256": "cd675df2d88c87986ca84541cf48ff80782852389ed56b7ecd60f15a7f4a1266",
+      "response": {
+        "path": "docs/evidence/research/A-R02.md",
+        "bytes": 1598,
+        "sha256": "d5cb07e8c4d079019de477156739d0210c8e076ce243ac56ee2484b8228ef849"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R02｜官方如何分離唯讀研究與程式執行權限？** 已完成官方文件查證；本輪僅使用網頁讀取，未執行程式或變更設定。",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "direct",
+        "status": "completed",
+        "claimed_at": "2026-10-25T01:54:39.211799+08:00",
+        "started_at": "2026-10-25T01:54:39.255515+08:00",
+        "finished_at": "2026-10-25T01:55:02.635793+08:00",
+        "scheduled_instant": null,
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R03",
+      "original_filename": "2026-10-25_02-26-15.md",
+      "original_bytes": 6864,
+      "original_file_sha256": "ad182f615dbf9dfae8211873b5e3ff587960d4ef9d845a968a0510432e796eb5",
+      "response": {
+        "path": "docs/evidence/research/A-R03.md",
+        "bytes": 1704,
+        "sha256": "5bd442fbafab8a3ca719850b97ba39144324469a08c4f387034e77da4db1f890"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R03｜週期任務如何承接前次結果並避免重複？** 官方文件區分兩層：`continuity` 提供前次報告作為上下文；執行帳本則處理排程事件的重複執行。兩者不能互相取代。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T02:25:54.368871+08:00",
+        "started_at": "2026-10-25T02:25:54.484796+08:00",
+        "finished_at": "2026-10-25T02:26:15.820026+08:00",
+        "scheduled_instant": "2026-10-24T18:25:02.629655+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R04",
+      "original_filename": "2026-10-25_02-57-16.md",
+      "original_bytes": 6879,
+      "original_file_sha256": "528bfc69d725a7104c4ed091f30aa4356b589c63210c8fcacc8bfca450a877c9",
+      "response": {
+        "path": "docs/evidence/research/A-R04.md",
+        "bytes": 1613,
+        "sha256": "7016bcea2f67d0c262198af64a58120d7d958cfbe674397dc5dd2b16d5f7e992"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R04｜如何區分執行成功、交付失敗與交付未確認？** 官方將執行與交付分開記錄；產生報告不等於報告已送達。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T02:56:54.376669+08:00",
+        "started_at": "2026-10-25T02:56:54.491241+08:00",
+        "finished_at": "2026-10-25T02:57:17.223913+08:00",
+        "scheduled_instant": "2026-10-24T18:56:15.814866+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R05",
+      "original_filename": "2026-10-25_03-28-13.md",
+      "original_bytes": 6868,
+      "original_file_sha256": "143937877fde0c133a23aa366f52126561e6a51dfafa483637dd7435821cf4a9",
+      "response": {
+        "path": "docs/evidence/research/A-R05.md",
+        "bytes": 1693,
+        "sha256": "2f562895c335b783169b2ea45334c1617d59bd75553afac5e0f5c7675e88412f"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R05｜排程未啟動、執行失敗與交付失敗，如何區分？** 官方分別提供 `last_fire_error`、`last_error`、`last_delivery_error`，不能只看單一成功／失敗狀態。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T03:27:54.368270+08:00",
+        "started_at": "2026-10-25T03:27:54.486482+08:00",
+        "finished_at": "2026-10-25T03:28:14.673108+08:00",
+        "scheduled_instant": "2026-10-24T19:27:17.218811+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R06",
+      "original_filename": "2026-10-25_03-59-15.md",
+      "original_bytes": 6913,
+      "original_file_sha256": "f7be6e9baa4cb47d20eacc0d642dc56475a0e513cb157316a979d6973e3cdb71",
+      "response": {
+        "path": "docs/evidence/research/A-R06.md",
+        "bytes": 1658,
+        "sha256": "107e0de4d55431bee440b3520aa31d152900156bf8ef381ee50442f98fd9f57b"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R06｜官方如何分離唯讀研究與程式執行權限？** 官方以 toolsets 控制工具可用性：`web` 僅含搜尋／網頁擷取，`terminal` 與 `code_execution` 則是分開的能力組。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/tools))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T03:58:54.371526+08:00",
+        "started_at": "2026-10-25T03:58:54.491631+08:00",
+        "finished_at": "2026-10-25T03:59:16.921771+08:00",
+        "scheduled_instant": "2026-10-24T19:58:14.667019+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R07",
+      "original_filename": "2026-10-25_04-30-14.md",
+      "original_bytes": 6551,
+      "original_file_sha256": "31809ecf920151d3e5d47d0e66b4be6bce11750d4c08b63e57385ab9ccd8d132",
+      "response": {
+        "path": "docs/evidence/research/A-R07.md",
+        "bytes": 1332,
+        "sha256": "2b05418608bf494d60694501756f604ce6307e05873e1e9c463518cd874acfde"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R07｜官方 recurring tasks 如何延續前次結果並避免重複？** `continuity=true` 會把該工作的最近一次輸出注入新一輪 prompt；這是結果延續，不是重用完整對話。**推論：**可協助研究線接續下一題，但不保證模型不重複報告。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T04:29:54.359666+08:00",
+        "started_at": "2026-10-25T04:29:54.474502+08:00",
+        "finished_at": "2026-10-25T04:30:15.902133+08:00",
+        "scheduled_instant": "2026-10-24T20:29:16.916406+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R08",
+      "original_filename": "2026-10-25_05-01-10.md",
+      "original_bytes": 6131,
+      "original_file_sha256": "7a670ba739ce8b4a62d30444e0ab07a556eb4f0efeb55669600c86a79dc73383",
+      "response": {
+        "path": "docs/evidence/research/A-R08.md",
+        "bytes": 1239,
+        "sha256": "8820905785560eb63b68f624fcfe9a72d00902ba1af454d731a33ee0ce2db675"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R08｜官方如何區分執行成功、交付成功與交付未驗證？** 官方將執行與交付分開追蹤；模型完成工作，不代表報告已送達。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T05:00:54.389344+08:00",
+        "started_at": "2026-10-25T05:00:54.510710+08:00",
+        "finished_at": "2026-10-25T05:01:12.005960+08:00",
+        "scheduled_instant": "2026-10-24T21:00:15.896488+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R09",
+      "original_filename": "2026-10-25_05-32-08.md",
+      "original_bytes": 5937,
+      "original_file_sha256": "2b553f0a6417822b0f6b46b1c43168d47245d70def6e7ec10af74471c9402610",
+      "response": {
+        "path": "docs/evidence/research/A-R09.md",
+        "bytes": 1138,
+        "sha256": "f949a23c530b156aa7ad57185108b225d28492c6206e0de6722cb0fae4fc3983"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R09｜模型正常結束、但任務未完成，如何正確記為失敗？** 官方提供主動宣告機制，避免把「agent 正常結束」誤當成「工作完成」。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T05:31:54.365893+08:00",
+        "started_at": "2026-10-25T05:31:54.478995+08:00",
+        "finished_at": "2026-10-25T05:32:09.585022+08:00",
+        "scheduled_instant": "2026-10-24T21:31:12.000595+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R10",
+      "original_filename": "2026-10-25_06-03-13.md",
+      "original_bytes": 6029,
+      "original_file_sha256": "d7223c0f739e9e26a6cb740a9ab7e2004726e4b65d96fcbdcceab78e9b79686b",
+      "response": {
+        "path": "docs/evidence/research/A-R10.md",
+        "bytes": 1331,
+        "sha256": "598e138eeedce5bf579d834d7b9d158f2727cbf3b6a5587724e963e30e5f213a"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R10｜官方如何分開唯讀網頁研究與程式執行權限？** 官方以 toolsets 控制工具可用性；`web` 僅含 `web_search`、`web_extract`，`terminal`、`code_execution`、`delegation` 則是獨立能力群組。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/reference/toolsets-reference))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T06:02:54.363689+08:00",
+        "started_at": "2026-10-25T06:02:54.484262+08:00",
+        "finished_at": "2026-10-25T06:03:14.874813+08:00",
+        "scheduled_instant": "2026-10-24T22:02:09.577961+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R11",
+      "original_filename": "2026-10-25_06-34-15.md",
+      "original_bytes": 6288,
+      "original_file_sha256": "22657f8a9aec70dbd74b68fb8afa5d9069bbaeebcd62161487e148b4964cbcbf",
+      "response": {
+        "path": "docs/evidence/research/A-R11.md",
+        "bytes": 1397,
+        "sha256": "4d6bc62746635d781268133749c309ea8aa5dd749304632e6bfb203085d3bfcd"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R11｜週期任務如何延續前次結果、避免重複研究與副作用？** 官方 `continuity=true` 會把同一任務最近一次輸出注入新一輪；`context_from` 則可引入其他任務的最近輸出。這是傳遞結果，不是恢復完整舊對話。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T06:33:54.363141+08:00",
+        "started_at": "2026-10-25T06:33:54.478476+08:00",
+        "finished_at": "2026-10-25T06:34:16.123737+08:00",
+        "scheduled_instant": "2026-10-24T22:33:14.869108+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R12",
+      "original_filename": "2026-10-25_07-05-10.md",
+      "original_bytes": 6423,
+      "original_file_sha256": "476d918305f9689ff341323a09b300748fcfd78a241bc252636d4f3ac5a1f1cf",
+      "response": {
+        "path": "docs/evidence/research/A-R12.md",
+        "bytes": 1466,
+        "sha256": "bd370fb1f5c04aba837bc1c640e2834cea234925de99119aca5790f0b284e9e9"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R12｜官方如何區分執行成功、投遞失敗與投遞未確認？** 官方將執行與投遞分開追蹤；agent 完成不代表訊息已送達。投遞失敗會記為 `last_status: delivery_failed`，原因放在 `last_delivery_error`，不計入執行失敗的 `failure_streak`。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T07:04:54.373765+08:00",
+        "started_at": "2026-10-25T07:04:54.490928+08:00",
+        "finished_at": "2026-10-25T07:05:11.942128+08:00",
+        "scheduled_instant": "2026-10-24T23:04:16.118355+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R13",
+      "original_filename": "2026-10-25_07-36-09.md",
+      "original_bytes": 6716,
+      "original_file_sha256": "3792175222a717b3eb93417199d2e457b838b1277bed16b96b3fc6da11a066b4",
+      "response": {
+        "path": "docs/evidence/research/A-R13.md",
+        "bytes": 1689,
+        "sha256": "6bccacf5b8901ce4202d51772c69407cfcec5d8feeebdbae2521ededb67aef13"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R13｜全域暫停、單一任務暫停與人工強制執行，有哪些邊界？** 官方明確指出：暫停排程不等於終止正在執行的工作，也不是阻止人工執行的安全邊界。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T07:35:54.363096+08:00",
+        "started_at": "2026-10-25T07:35:54.477511+08:00",
+        "finished_at": "2026-10-25T07:36:09.924839+08:00",
+        "scheduled_instant": "2026-10-24T23:35:11.936265+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R14",
+      "original_filename": "2026-10-25_08-07-13.md",
+      "original_bytes": 6649,
+      "original_file_sha256": "23b98cdecacd44f03e110c00e348e139ffa51fbca4b88d5cd0930ee3d6dabc23",
+      "response": {
+        "path": "docs/evidence/research/A-R14.md",
+        "bytes": 1399,
+        "sha256": "242c8d9452671470925131c34bc537907a018f58c593d6a3f3187dae577992be"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R14｜如何讓研究排程只取得網頁讀取工具，不取得程式執行能力？** 官方提供每任務 `enabled_toolsets`，可用工具集合限制能力，而不只是靠提示詞要求「不要執行」。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T08:06:54.360440+08:00",
+        "started_at": "2026-10-25T08:06:54.475474+08:00",
+        "finished_at": "2026-10-25T08:07:14.488127+08:00",
+        "scheduled_instant": "2026-10-25T00:06:09.919691+00:00",
+        "delivery_outcome": "delivered"
+      }
+    },
+    {
+      "task_id": "A-R15",
+      "original_filename": "2026-10-25_08-38-11.md",
+      "original_bytes": 6376,
+      "original_file_sha256": "a7c89d6880ef4894161b50f669fe18a4a78ff1d19914f17a3fc8382737225551",
+      "response": {
+        "path": "docs/evidence/research/A-R15.md",
+        "bytes": 1417,
+        "sha256": "049b3118d3256bff7c1ff824ba960af7b38f1948d1caeb0fe2ee13cdc31d895a"
+      },
+      "previous_output_in_prompt": true,
+      "response_first_line": "- **A-R15｜每輪都是新 session，如何延續研究並避免重複？** 官方 `continuity=true` 會將同一任務最近一次有效輸出注入新一輪提示，讓研究接續上次進度，不必保留原 session。([hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron))",
+      "skill_name_in_full_retained_run_text": false,
+      "execution": {
+        "source": "builtin",
+        "status": "completed",
+        "claimed_at": "2026-10-25T08:37:54.361436+08:00",
+        "started_at": "2026-10-25T08:37:54.482501+08:00",
+        "finished_at": "2026-10-25T08:38:12.616498+08:00",
+        "scheduled_instant": "2026-10-25T00:37:14.481982+00:00",
+        "delivery_outcome": "delivered"
+      }
+    }
+  ]
+}

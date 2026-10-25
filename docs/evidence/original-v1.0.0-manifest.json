@@ -1,0 +1,82 @@
+{
+  "release": "v1.0.0",
+  "product": "I Have No Patience",
+  "description": "Repository file SHA-256; excludes this manifest itself",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 458,
+      "sha256": "2ce1b4f9630fc2fd3bdf0e2df4d450dbf577db6ac6d8eee1daeb66163d9232b8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 110,
+      "sha256": "a0045b29142f9b33b01e0c10857ece58f3b5ded5ed5d0eac42158772c134d861"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 680,
+      "sha256": "8ccbe6ae5e56b37526b7e30dbd2b70d54b827f8c78a634a77ed342a9004b115d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1026,
+      "sha256": "269833131fb984396848047c7c8beac5e5cc9553e1c3dffc41b2d5bfe220bf3e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1091,
+      "sha256": "8b22828e3f47c54352a39af86bd971c778e8a9833733354ce6d057c79901c308"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9500,
+      "sha256": "8b35b09c94c719191ec1c4f6063f074282451cac23dada4f7d6a74662bfa434c"
+    },
+    {
+      "path": "README.zh-TW.md",
+      "bytes": 4845,
+      "sha256": "ce00e180c61ba63a910f03e324b61823a5e65346f945611ffc388c7795d5f92c"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1339,
+      "sha256": "224cc0f7d6fea7db0381ccf2d110f827c820dbcb8cd33b2cc5d884dbb1dd3307"
+    },
+    {
+      "path": "examples/adapter_integration.py",
+      "bytes": 1927,
+      "sha256": "f0dae17827a6fcec6bf3461bbe3afcec58c2694ba2906881faa70163161e0aed"
+    },
+    {
+      "path": "skills/i-have-no-patience/SKILL.md",
+      "bytes": 5874,
+      "sha256": "dc641b26d6028915b91a52411443401ffae1b69f080318ee74c509daf75d8bf2"
+    },
+    {
+      "path": "skills/i-have-no-patience/config/policy.example.json",
+      "bytes": 156,
+      "sha256": "9bbb7e458ffd13ad0dbf5967fb17aef0aaa60220cf50d68c7a2d830b3b8bcfa9"
+    },
+    {
+      "path": "skills/i-have-no-patience/references/CASE_STUDY.md",
+      "bytes": 4768,
+      "sha256": "df30f5ee61d9a1f7ed14d370d77e9b525c5140a4b74f44d852bf86785c8a5ee9"
+    },
+    {
+      "path": "skills/i-have-no-patience/references/ENFORCEMENT.md",
+      "bytes": 5242,
+      "sha256": "6517a8f94350831593cd0c7deff2baa5a89a30201d864fd5c8796c62e1a0d056"
+    },
+    {
+      "path": "skills/i-have-no-patience/scripts/budget_guard.py",
+      "bytes": 10820,
+      "sha256": "56d9101510f24b4ef8f7f59b2334856c8c783d64abe994db4605ba42cc300798"
+    },
+    {
+      "path": "tests/test_budget_guard.py",
+      "bytes": 6856,
+      "sha256": "de3f6882d45d319c58f7d7fc67b67aaea13d87e07119f6bcd51ebd2f65d63913"
+    }
+  ]
+}
